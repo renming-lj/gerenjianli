@@ -31,7 +31,8 @@ ul, ol { list-style: none; }
 .fl{ float: left; }
 .fr{float: right;}
 
-.wrapper_max{width: 800px;margin: 0 auto;border: #1a8fab solid 3px;height: 910px;}
+.wrapper_max{width: 800px;margin: 0 auto;border: #1a8fab solid 3px;}
+.wrapper_max::after{content: '';display: block;clear: both;}
 /* left start */
 .wrapper_max_left{width: 30%;float: left;background: #f0f0f0;height: 910px;}
 .wrapper_max_left_top{height: 260px;padding-top: 70px;margin-bottom: 30px;}
